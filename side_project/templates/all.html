@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cày thuê</title>
+  </head>
+  <body>
+    {% for service in all_services %}
+      <p>name :{{service.name}}</p>
+      <p>decription : {{service.des}}</p>
+      <p>rating : {{service.rate}}</p>
+    {%endfor%}
+  </body>
+</html>

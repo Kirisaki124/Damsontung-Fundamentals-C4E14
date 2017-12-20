@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Warm winter</title>
+  </head>
+  <body>
+    <h1>warm winter</h1>
+    <!-- <a href="/search/0">for male</a>
+    <a href="/search/1">for female</a> -->
+    <a href="{{ url_for('search',gender = 0) }}">for male</a>
+    <a href="{{ url_for('search',gender = 1) }}">for female</a>
+  </body>
+</html>
