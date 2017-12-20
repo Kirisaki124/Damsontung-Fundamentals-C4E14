@@ -6,9 +6,17 @@
   </head>
   <body>
     {% for service in all_services %}
-      <p>name :{{service.name}}</p>
-      <p>decription : {{service.des}}</p>
-      <p>rating : {{service.rate}}</p>
+      <h1>người cày</h1>
+      {% if service.game == "CSGO"%}
+      <p>Game: {{service.game}}</p>
+      {%elif service.game == "DOTA"%}
+      <p>Game: {{service.game}}</p>
+      {%else%}
+      <p>Game: {{service.game}}</p>
+      {%endif%}
+      <p>Name :{{service.name}}</p>
+      <p>Description : {{service.des}}</p>
+      <p>Rating : {{service.rate}}</p>
     {%endfor%}
   </body>
 </html>

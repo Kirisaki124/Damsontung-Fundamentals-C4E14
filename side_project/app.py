@@ -9,21 +9,10 @@ mlab_connect()
 def index():
     return render_template('index.html')
 
-@app.route('/lol')
-def lol():
-    return render_template('lol.html')
-
-@app.route('/csgo')
-def csgo():
-    return render_template('csgo.html')
-
-@app.route('/dota')
-def dota():
-    return render_template('dota.html')
-
-@app.route('/search')
-def search():
-    filtered_services = service.objects
+@app.route('/search/<game>')
+def search(game):
+    filtered_services = service.objects(game = game)
+    all_services = service.objects()
     return render_template('all.html',all_services = filtered_services)
 if __name__ == '__main__':
   app.run(debug=True)
