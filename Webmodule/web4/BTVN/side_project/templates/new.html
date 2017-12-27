@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Create new product </title>
+  </head>
+  <body>
+    <form class="" method="post">
+      <label for="">Mật danh</label>
+      <input type="text" name="name" value="">
+
+      <br>
+
+      <label for="">Bạn muốn cày thuê cho game gì</label>
+      <select class="game" name="game">
+        <option value="LOL">LOL(leauge of legend)</option>
+        <option value="CSGO">CSGO (counterstrike)</option>
+        <option value="DOTA">DOTA 2</option>
+      </select>
+
+      <br>
+
+      <label for="">Giá cho 1 rank</label>
+     <select class="price" name="price">
+       <option value="100000">100.000đ</option>
+       <option value="200000">200.000đ</option>
+       <option value="300000">300.000đ</option>
+
+     </select>
+
+     <br>
+
+     <label for="">Tự giới thiệu về bản thân</label>
+     <input type="text" name="des" value="">
+
+     <br>
+
+     <input type="submit" name="" value="Đăng ký">
+    </form>
+    {% for message in get_flashed_messages() %}
+    <h1> {{ message}} </h1>
+    {% endfor %}
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cày thuê</title>
+  </head>
+  <body>
+    {% for service in all_services %}
+      <h1>người cày</h1>
+      {% if service.game == "CSGO"%}
+      <p>Game: {{service.game}}</p>
+      {%elif service.game == "DOTA"%}
+      <p>Game: {{service.game}}</p>
+      {%else%}
+      <p>Game: {{service.game}}</p>
+      {%endif%}
+      <p>Name :{{service.name}}</p>
+      <p>Description : {{service.des}}</p>
+      <p>Rating : {{service.rate}}</p>
+    {%endfor%}
+  </body>
+</html>

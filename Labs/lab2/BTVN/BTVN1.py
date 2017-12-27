@@ -35,4 +35,4 @@ options = {
     "format": "bestaudio/audio"
 }
 dl = YoutubeDL(options)
-dl.download(["con điên"])
+dl.download(["https://www.youtube.com/watch?v=is68rlOzEio"])
