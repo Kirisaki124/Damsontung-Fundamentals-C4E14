@@ -1,0 +1,174 @@
+/* h1 {
+  color: red;
+}
+ */
+
+#first-heading{
+  color: blue;
+}
+
+
+.text-gray {
+  color: gray;
+}
+
+.text-center{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.none{
+  text-decoration: none
+}
+
+.text-upper{
+  text-transform: uppercase;
+}
+
+.font-something{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Arvo', serif;
+}
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.size30px{
+  font-size: 100px;
+}
+
+.w100{
+  width: 100%
+}
+
+.h-500px{
+  height: 500px
+}
+
+.bg-gray{
+  background-color: gray;
+}
+
+.bg-image{
+  background-image: url("https://static.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg");
+}
+
+.bg-cover{
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.bg-fix{
+  background-attachment: fixed;  /* parallax */
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+.w-40{
+  width: 40%;
+}
+.h-200px{
+  height: 200px;
+}
+
+.d-inline-block{
+  display: inline-block;
+}
+
+.bg-lightgreen{
+  background-color: lightgreen;
+}
+
+.d-inline{
+  display: inline;
+}
+
+.d-block{
+  display: block;
+}
+
+.float-right{
+  float: right
+}
+
+.border-purple{
+  border: 1px solid #ccc;
+}
+
+.mt50px{
+  margin-top:50px;
+}
+
+.ml50px{
+  margin-left: 50px;
+}
+
+.mr50px{
+  margin-right: 50px;
+}
+
+.mb50px{
+  margin-bottom: 50px;
+}
+
+#margin-element{
+  margin: 100px;
+}
+
+.w-40{
+  width: 40px
+}
+
+.h-100px{
+  height: 100px
+}
+
+#padding-element{
+  padding: 50px
+}
+
+.m-10px{
+  margin: 10px;
+}
+
+.w-100px{
+  width: 100px
+}
+
+.d-flex{
+  display: flex;
+}
+
+.row-wrap{
+  /* flex-flow: direction wrap; */
+  flex-flow: row wrap;
+}
+
+.justify-content-center{
+  justify-content: center;
+  /* justify-content: flex-end; */
+  /* justify-content: flex-start; */
+  /* justify-content: space-around; */
+}
+
+.items-center{
+  align-items: center;
+}
+
+.align-content-center{
+  align-content: center;
+}

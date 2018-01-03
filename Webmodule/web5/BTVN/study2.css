@@ -1,0 +1,18 @@
+.box{
+  border: 1px solid #000;
+  border-width:1px;
+  text-align: center;
+}
+
+.box ul {
+ list-style-type: none;
+}
+
+.box li{
+  display: inline;
+  padding: 50px
+}
+
+.box a{
+  text-decoration: none;
+}

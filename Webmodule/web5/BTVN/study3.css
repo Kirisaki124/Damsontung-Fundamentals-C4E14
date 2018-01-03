@@ -1,0 +1,15 @@
+.greenbox{
+  background-color: green;
+  height: 200px;
+  width:  200px;
+  padding: 10px
+}
+
+.redbox{
+  box-sizing: border-box;
+  background-color: red;
+  padding: 50px;
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}

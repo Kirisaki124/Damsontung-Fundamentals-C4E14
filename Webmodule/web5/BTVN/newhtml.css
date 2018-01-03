@@ -1,0 +1,42 @@
+.font{
+  font-size: 60px;
+  font-family: 'Shadows Into Light'; cursive;
+}
+
+.opacity{
+  opacity: 0.5
+}
+
+.background{
+  background-image: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/PaintSquares_1920x1234.jpg);
+  background-size: cover;
+}
+
+.w-100{
+  width: 100%
+}
+
+.h-1000px{
+  height: 1000px
+}
+
+.text{
+  /* text-decoration: underline; */
+  font-weight: bold;
+}
+
+.center{
+  text-align: center
+}
+
+.blue{
+  color: rgb(16, 103, 152)
+}
+
+.red{
+  color: rgb(195, 49, 23)
+}
+
+.green{
+  color: rgb(40, 212, 57)
+}
