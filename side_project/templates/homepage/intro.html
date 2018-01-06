@@ -1,0 +1,56 @@
+<div class="container my-5 bg-light">
+  <div class="container mb-5 mt-3">
+    <h1 class="text-center">You really need to rank up or maybe boost you in</h1>
+    <h2 class="text-center">Leauge, Dota, Csgo</h2>
+    <h3 class="text-center">We are here to help you with that</h3>
+    <h2 class="text-center">Now choose the game you are playing</h2>
+  </div>
+
+  <div class="d-flex justify-content-around card-deck">
+          <div class="card">
+            <div class="rounded object-fit-cover">
+          <img class="card-img-top" src="https://euw.leagueoflegends.com/sites/default/files/styles/wide_medium/public/upload/lol_promoart_8_2.jpg?itok=K8l8hVW_" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bold">League of legends</h3>
+            <p class="card-text">From bronze to challenger</p>
+            <h3 class="card-text text-center"> IN A WEEK </h3>
+            <div class="d-flex justify-content-around mt-3">
+              <a href="#" class="btn btn-primary btn-lg " role="button" aria-pressed="true">Booster</a>
+              <a href="{{url_for('search', game = "LOL")}}" class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Need boost</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="rounded object-fit-cover">
+        <img class="card-img-top" src="https://cdn.vox-cdn.com/thumbor/9tcFMUrm9UUZjD7MAoDfi0-kUFs=/0x0:1280x720/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/49940385/csgo.0.jpg" alt="Card image cap">
+          </div>
+        <div class="card-body">
+          <h3 class="card-title font-weight-bold">Counter strike</h3>
+          <p class="card-text">From sliver 1 to global elite</p>
+          <h3 class="card-text text-center"> IN A WEEK </h3>
+          <div class="d-flex justify-content-around mt-3">
+            <a href="#" class="btn btn-primary btn-lg " role="button" aria-pressed="true">Booster</a>
+            <a href="{{url_for('search', game = "CSGO")}}" class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Need boost</a>
+          </div>
+          </div>
+      </div>
+
+      <div class="card">
+        <div class="rounded object-fit-cover">
+      <img class="card-img-top" src="http://www.gamersbook.com/DesktopModules/DnnForge%20-%20NewsArticles/ImageHandler.ashx?Width=770&Height=433&HomeDirectory=%2FPortals%2F0%2F&FileName=images%2F2013%2F11%2Fdoto.jpg&PortalID=0&q=1&s=1" alt="Card image cap">
+        </div>
+      <div class="card-body">
+        <h3 class="card-title font-weight-bold">Dota 2</h3>
+        <p class="card-text">From herald to divine</p>
+        <h3 class="card-text text-center"> IN A WEEK </h3>
+        <div class="d-flex justify-content-around mt-3">
+          <a href="#" class="btn btn-primary btn-lg " role="button" aria-pressed="true">Booster</a>
+          <a href="{{url_for('search', game = "DOTA")}}" class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Need boost</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
